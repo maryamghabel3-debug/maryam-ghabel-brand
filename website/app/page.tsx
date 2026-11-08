@@ -35,14 +35,74 @@ export default function HomePage() {
         className="py-16 sm:py-20 lg:py-24"
       >
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
-          {/* Placeholder portrait */}
+          {/* Portrait card with brand emblem */}
           <div className="relative mx-auto w-full max-w-sm">
             <div className="aspect-[4/5] overflow-hidden rounded-3xl bg-gradient-to-br from-navy via-navy-light to-navy-dark shadow-xl">
               <div
                 aria-hidden="true"
-                className="flex h-full w-full items-center justify-center bg-[radial-gradient(circle_at_30%_25%,rgba(201,168,124,0.25),transparent_55%)]"
+                className="relative flex h-full w-full items-center justify-center bg-[radial-gradient(circle_at_30%_25%,rgba(201,168,124,0.35),transparent_55%)]"
               >
-                <span className="font-bold text-7xl text-gold/40">م</span>
+                {/* Decorative emblem instead of placeholder letter */}
+                <svg
+                  viewBox="0 0 200 240"
+                  className="h-3/4 w-3/4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  {/* Outer circle */}
+                  <circle
+                    cx="100"
+                    cy="120"
+                    r="78"
+                    stroke="#C9A87C"
+                    strokeWidth="1.5"
+                    strokeOpacity="0.5"
+                  />
+                  {/* Inner pattern - abstract representation of mind/depth */}
+                  <path
+                    d="M 100 50 Q 140 80 130 120 Q 120 160 100 180 Q 80 160 70 120 Q 60 80 100 50 Z"
+                    stroke="#C9A87C"
+                    strokeWidth="1"
+                    strokeOpacity="0.6"
+                    fill="none"
+                  />
+                  {/* Concentric arcs representing depth */}
+                  <path
+                    d="M 60 120 Q 100 90 140 120"
+                    stroke="#E8DCC8"
+                    strokeWidth="0.8"
+                    strokeOpacity="0.4"
+                    fill="none"
+                  />
+                  <path
+                    d="M 65 130 Q 100 105 135 130"
+                    stroke="#E8DCC8"
+                    strokeWidth="0.8"
+                    strokeOpacity="0.3"
+                    fill="none"
+                  />
+                  <path
+                    d="M 70 140 Q 100 120 130 140"
+                    stroke="#E8DCC8"
+                    strokeWidth="0.8"
+                    strokeOpacity="0.2"
+                    fill="none"
+                  />
+                  {/* Gold dot center - "self" */}
+                  <circle cx="100" cy="120" r="4" fill="#C9A87C" />
+                  {/* Label below */}
+                  <text
+                    x="100"
+                    y="215"
+                    textAnchor="middle"
+                    fill="#C9A87C"
+                    fontSize="9"
+                    fontFamily="Vazirmatn, sans-serif"
+                    letterSpacing="3"
+                  >
+                    روان‌شناسی عمیق
+                  </text>
+                </svg>
               </div>
             </div>
             {/* Floating experience badge */}
