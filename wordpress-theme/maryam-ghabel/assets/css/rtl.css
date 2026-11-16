@@ -1,0 +1,165 @@
+/**
+ * Maryam Ghabel Clinical — RTL-specific overrides.
+ * Loaded after main.css when is_rtl() returns true.
+ */
+
+/* RTL-aware utility classes */
+.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Flip horizontal paddings/margins */
+.rtl .entry-content blockquote,
+.rtl .philosophy-quote,
+.rtl .contact-section__note {
+    border-right: 4px solid var(--color-gold);
+    border-left: 0;
+}
+
+.rtl .service-detail-card__list li,
+.rtl .booking-list li {
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+.rtl .faq-item summary {
+    padding-left: 3rem;
+    padding-right: 1.5rem;
+}
+
+.rtl .faq-item summary::after {
+    left: 1.25rem;
+    right: auto;
+}
+
+/* Numeric lists should still appear LTR (numbers 01..05) */
+.service-detail-card__number {
+    direction: ltr;
+    text-align: right;
+}
+
+/* Stat-card numbers (Persian digits already) */
+.stat-card__number,
+.experience-stat__number,
+.info-card__value {
+    direction: rtl;
+}
+
+/* Icons alignment in RTL */
+.rtl .channel-card__icon,
+.rtl .info-card__icon,
+.rtl .credential-card__icon {
+    direction: ltr;
+}
+
+/* Form inputs */
+.rtl input[type="text"],
+.rtl input[type="email"],
+.rtl input[type="tel"],
+.rtl input[type="search"],
+.rtl textarea,
+.rtl select {
+    text-align: right;
+}
+
+/* Email field stays LTR for usability */
+input[type="email"],
+input[type="url"] {
+    direction: ltr;
+    text-align: right;
+}
+
+/* Pagination arrows in RTL flip */
+.rtl .pagination .prev::before {
+    content: '→ ';
+}
+
+.rtl .pagination .next::after {
+    content: ' →';
+}
+
+/* WordPress alignment classes in RTL */
+.rtl .alignright {
+    float: left;
+    margin: 0 0 1.5rem 1.5rem;
+}
+
+.rtl .alignleft {
+    float: right;
+    margin: 0 1.5rem 1.5rem 0;
+}
+
+/* Read more arrow points left in RTL */
+.rtl .read-more-link::before {
+    content: '→';
+    margin-left: 0.25rem;
+}
+
+/* Tailwind reset compatibility — Vazirmatn works in both directions */
+
+/* Sub-pixel rendering fix for Persian numerals */
+.stat-card__number,
+.experience-stat__number,
+.info-card__value,
+.service-detail-card__number,
+.error-404 h1 {
+    font-feature-settings: 'ss01';
+    -webkit-font-feature-settings: 'ss01';
+}
+
+/* Quote marks alignment in RTL */
+.rtl .philosophy-quote::before,
+.rtl .testimonial-card::before {
+    right: auto;
+    left: 1rem;
+}
+
+.rtl .testimonial-card {
+    border-right: 0;
+    border-left: 3px solid var(--color-gold);
+}
+
+.rtl .service-detail-card {
+    border-right: 0;
+}
+
+/* Footer alignment */
+.rtl .site-info {
+    text-align: center;
+}
+
+/* Make sure dropdown menus open leftward in RTL */
+@media (max-width: 991px) {
+    .rtl .main-navigation ul {
+        right: 0;
+        left: 0;
+    }
+}
+
+/* Skip link position in RTL */
+.rtl .skip-link {
+    right: 1rem;
+    left: auto;
+}
+
+/* Make sure focus outlines are visible on RTL elements */
+:focus-visible {
+    outline-offset: 2px;
+}
+
+/* Elementor canvas mode: keep RTL */
+.elementor-page.rtl .elementor-section-boxed > .elementor-container {
+    direction: rtl;
+}
+
+/* WPForms RTL adjustments */
+.rtl .wpforms-container-full .wpforms-form .wpforms-field-label {
+    text-align: right;
+}
+
+.rtl .wpforms-container-full .wpforms-form .wpforms-field input,
+.rtl .wpforms-container-full .wpforms-form .wpforms-field textarea,
+.rtl .wpforms-container-full .wpforms-form .wpforms-field select {
+    text-align: right;
+}

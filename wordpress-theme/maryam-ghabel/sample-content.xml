@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Maryam Ghabel Clinical — Sample Content
+  WordPress WXR (eXtended RSS) import file.
+  Includes 5 main pages with full Persian content.
+  To import: WordPress Admin → Tools → Import → WordPress → Run Importer.
+-->
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+
+    <channel>
+        <title>مریم قابل | روان‌شناس بالینی</title>
+        <link>https://maryamghabel.ir</link>
+        <description>روان‌شناسی عمیق برای بزرگسالان موفق</description>
+        <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
+        <language>fa-IR</language>
+        <wp:wxr_version>1.2</wp:wxr_version>
+        <wp:base_site_url>https://maryamghabel.ir</wp:base_site_url>
+        <wp:base_blog_url>https://maryamghabel.ir</wp:base_blog_url>
+
+        <wp:author>
+            <wp:author_id>1</wp:author_id>
+            <wp:author_login>admin</wp:author_login>
+            <wp:author_email>info@maryamghabel.ir</wp:author_email>
+            <wp:author_display_name>مریم قابل</wp:author_display_name>
+            <wp:author_first_name>مریم</wp:author_first_name>
+            <wp:author_last_name>قابل</wp:author_last_name>
+        </wp:author>
+
+        <!-- ============================================ -->
+        <!-- PAGE 1: خانه (Home) -->
+        <!-- ============================================ -->
+        <item>
+            <title>خانه</title>
+            <link>https://maryamghabel.ir/home</link>
+            <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false">https://maryamghabel.ir/?page_id=2</guid>
+            <description></description>
+            <content:encoded><![CDATA[
+مریم قابل | روان‌شناس بالینی
+
+روان‌شناسی عمیق برای بزرگسالان موفق
+
+روانکاوی، خودآگاهی و رشد فردی برای کسانی که به دنبال درک عمیق‌تر از خود و الگوهای ناخودآگاه خود هستند. همراه شما در مسیر شناخت و تغییر.
+
+[درباره‌ی کار من]
+
+من مریم قابل هستم، روان‌شناس بالینی با تخصص در روانکاوی و کار با بزرگسالان. کار من کمک به انسان‌هایی است که به ظاهر موفق هستند اما در درون دچار درگیری، اضطراب یا احساس خلأ هستند. با هم، الگوهای تکرارشونده‌ی ناخودآگاه را پیدا می‌کنیم و مسیر تغییر را می‌سازیم.
+
+آمار:
+- ۷+ سال تجربه روانکاوی گروهی
+- ۵۰ دقیقه هر جلسه
+- ۱۵ دقیقه مشاوره اولیه رایگان
+
+[خدمات]
+
+پنج حوزه‌ی محتوایی برای رشد و شناخت خود:
+
+۱. الگوهای ناخودآگاه — شناسایی و درک الگوهای تکرارشونده‌ای که زندگی شما را شکل می‌دهند؛ از روابط گرفته تا تصمیم‌گیری.
+
+۲. روان‌شناسی موفقیت — کشف موانع درونی که شما را از موفقیت پایدار باز می‌دارند و ساخت مسیر رشد شخصی و حرفه‌ای.
+
+۳. درس‌های بالینی — بازتابی از تجربه‌های بالینی و درس‌هایی که در اتاق درمان آموخته‌ام؛ برای آگاهی عمیق‌تر.
+
+۴. بازتاب شخصی — تاملات و نوشته‌هایی درباره‌ی مسیر درونی، خودشناسی و فرازهای زندگی روزمره.
+
+۵. روان‌شناسی مهاجرت — همراهی با چالش‌های روانی مهاجرت: از هویت و تعلق گرفته تا سوگ و بازسازی خانه درون.
+
+[چرا مریم قابل؟]
+
+- رویکرد روانکاوانه: کار بر اساس ریشه‌های ناخودآگاه الگوهای رفتاری، نه صرفاً نشانه‌ها.
+- تجربه‌ی گروهی: ۷ سال تجربه در روانکاوی گروهی با مراجعان متنوع.
+- حریم خصوصی کامل: تمام جلسات محرمانه و با رعایت اصول اخلاقی حرفه‌ای.
+- مشاوره‌ی اولیه رایگان: ۱۵ دقیقه گفتگوی اولیه برای شناخت متقابل، بدون هزینه.
+
+[نظرات مراجعین]
+
+«جلسات با مریم به من کمک کرد الگوهایی را ببینم که سال‌ها در تاریکی بودند. به جای درمان سریع، یاد گرفتم خودم را عمیق‌تر بشناسم.» — مراجع ۳۲ ساله
+
+«فضای امن و بدون قضاوت. مریم با حوصله گوش می‌دهد و سؤال‌های درستی می‌پرسد.» — مراجع ۴۰ ساله
+
+«به‌عنوان مهاجر، کسی که درک می‌کند چه می‌گذرد پیدا کردم. ممنونم.» — مراجع مهاجر
+
+[آماده‌اید مسیر شناخت خود را آغاز کنید؟]
+
+یک تماس ۱۵ دقیقه‌ای رایگان برای شروع. بدون تعهد، فقط برای مطمئن شدن.
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[صفحه اصلی سایت مریم قابل — روان‌شناس بالینی. روان‌شناسی عمیق برای بزرگسالان موفق.]]></excerpt:encoded>
+            <wp:post_id>2</wp:post_id>
+            <wp:post_date><![CDATA[2024-01-01 10:00:00]]></wp:post_date>
+            <wp:post_date_gmt><![CDATA[2024-01-01 10:00:00]]></wp:post_date_gmt>
+            <wp:post_modified><![CDATA[2024-01-01 10:00:00]]></wp:post_modified>
+            <wp:post_modified_gmt><![CDATA[2024-01-01 10:00:00]]></wp:post_modified_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>home</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value><![CDATA[template-home.php]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+
+        <!-- ============================================ -->
+        <!-- PAGE 2: خدمات (Services) -->
+        <!-- ============================================ -->
+        <item>
+            <title>خدمات</title>
+            <link>https://maryamghabel.ir/services</link>
+            <pubDate>Mon, 01 Jan 2024 10:05:00 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false">https://maryamghabel.ir/?page_id=3</guid>
+            <description></description>
+            <content:encoded><![CDATA[
+خدمات روان‌شناسی بالینی
+
+حوزه‌های کار من
+
+پنج حوزه‌ی محتوایی که در آن‌ها کار می‌کنم: از کشف الگوهای ناخودآگاه گرفته تا همراهی در مسیر مهاجرت.
+
+[۰۱. الگوهای ناخودآگاه]
+
+بسیاری از رفتارها، انتخاب‌ها و احساسات ما از الگوهای ناخودآگاه سرچشمه می‌گیرند. این الگوها در کودکی شکل می‌گیرند و در بزرگسالی ادامه پیدا می‌کنند — در روابط، در کار، در نحوه‌ی واکنش به استرس.
+
+کار ما این است که این الگوها را به آگاهی بیاوریم. زمانی که می‌بینیم، قدرت انتخاب پیدا می‌کنیم.
+
+- شناسایی الگوهای تکرارشونده در روابط
+- درک ریشه‌های کودکی
+- تمایز واکنش از انتخاب
+
+[۰۲. روان‌شناسی موفقیت]
+
+موفقیت بیرونی همیشه با رضایت درونی همراه نیست. خیلی‌ها به ظاهر به همه‌چیز می‌رسند اما از درون خالی‌اند. کار من کمک به انسان‌های موفقی است که احساس می‌کنند چیزی جایش نیست.
+
+سوال اصلی این نیست که «چگونه موفق شوم»، بلکه این است: «این موفقیت چه معنایی برای من دارد؟»
+
+- کشف موانع درونی رشد
+- کار با اضطراب عملکرد و کمال‌گرایی
+- بازتعریف مفهوم موفقیت
+
+[۰۳. درس‌های بالینی]
+
+اتاق درمان جای عمیقی است. در آنجا، انسان‌ها نسخه‌ی واقعی خودشان می‌شوند. من از هر جلسه می‌آموزم و این درس‌ها را — ضمن حفظ کامل محرمانگی — به اشتراک می‌گذارم.
+
+هدف این است که آگاهی جمعی ما درباره‌ی روان انسان عمیق‌تر شود.
+
+- نوشته‌ها و تاملات بالینی
+- مفاهیم روانکاوی به زبان ساده
+- بازخوانی متن‌های کلاسیک
+
+[۰۴. بازتاب شخصی]
+
+این بخش، دفترچه‌ی تاملات من است. آنچه در مسیر زندگی، کار و خودشناسی تجربه می‌کنم را اینجا می‌نویسم — به این امید که شاید برای کسی آشنا باشد.
+
+نوشتن برای من راهی است برای اندیشیدن؛ و خواندن برای شما راهی برای فکر کردن.
+
+- خاطرات و تاملات روزانه
+- بازخوانی مسیر حرفه‌ای
+- تفکرات درباره‌ی هنر و ادبیات
+
+[۰۵. روان‌شناسی مهاجرت]
+
+مهاجرت فقط تغییر مکان نیست؛ تغییر هویت است. خانه، زبان، بوی فصل‌ها، صداها — همه چیز عوض می‌شود. این سوگ بزرگ است، حتی وقتی با موفقیت همراه باشد.
+
+کار من همراهی در این گذار است: از سوگ تا بازسازی تعلق، از بیگانگی تا خانه‌ی جدید در درون.
+
+- کار با سوگ از دست دادن
+- بازسازی هویت فرهنگی
+- مذاکره با تعلق دوگانه
+
+[رویکرد درمانی من]
+
+رویکرد من بر پایه‌ی روانکاوی است؛ یعنی گوش دادن عمیق به آنچه در پس‌زمینه‌ی آگاهی شما می‌گذرد. جلسات فضای امنی است که در آن می‌توانید بدون قضاوت، خود را کاوش کنید.
+
+- گوش دادن فعال: شنیدن آنچه گفته می‌شود و آنچه گفته نمی‌شود.
+- تفسیر همدلانه: بازتاب دادن آنچه در لابه‌لای حرف‌های شماست.
+- تمرکز بر فرایند: هدف، رشد درونی است نه راه‌حل سریع.
+- احترام به زمان شما: هر مسیر، سرعت خود را دارد.
+
+کدام حوزه نزدیک‌تر است؟ یک جلسه‌ی اولیه رزرو کنید تا با هم ببینیم.
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[پنج حوزه‌ی تخصصی روان‌شناسی بالینی: الگوهای ناخودآگاه، روان‌شناسی موفقیت، درس‌های بالینی، بازتاب شخصی، روان‌شناسی مهاجرت.]]></excerpt:encoded>
+            <wp:post_id>3</wp:post_id>
+            <wp:post_date><![CDATA[2024-01-01 10:05:00]]></wp:post_date>
+            <wp:post_date_gmt><![CDATA[2024-01-01 10:05:00]]></wp:post_date_gmt>
+            <wp:post_modified><![CDATA[2024-01-01 10:05:00]]></wp:post_modified>
+            <wp:post_modified_gmt><![CDATA[2024-01-01 10:05:00]]></wp:post_modified_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>services</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>1</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value><![CDATA[template-services.php]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+
+        <!-- ============================================ -->
+        <!-- PAGE 3: درباره من (About) -->
+        <!-- ============================================ -->
+        <item>
+            <title>درباره من</title>
+            <link>https://maryamghabel.ir/about</link>
+            <pubDate>Mon, 01 Jan 2024 10:10:00 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false">https://maryamghabel.ir/?page_id=4</guid>
+            <description></description>
+            <content:encoded><![CDATA[
+مریم قابل
+
+روان‌شناس بالینی | روانکاو
+
+[داستان من]
+
+از جوانی به دنیای درون انسان علاقه‌مند بودم. شاید از همان روزهایی که متوجه شدم آدم‌ها چقدر متفاوت از درون هستند با آنچه بیرون نشان می‌دهند. این کنجکاوی مرا به روان‌شناسی کشاند، و سپس به روانکاوی.
+
+در این مسیر، با انسان‌های زیادی کار کردم — بزرگسالانی که به ظاهر موفق بودند اما در درون دچار درگیری، احساس خلأ یا جستجوی معنا. آموخته‌ام که رشد واقعی از درون می‌آید، نه از بیرون.
+
+امروز با رویکرد روانکاوانه کار می‌کنم: به این معنا که به جای درمان سریع نشانه‌ها، به دنبال فهم ریشه‌ها هستم. اعتقاد دارم هر انسان در درون خود منبعی از حقیقت دارد؛ کار من کمک به شنیدن آن منبع است.
+
+[تخصص‌ها و مدارک]
+
+هفت سال تجربه در روانکاوی گروهی.
+
+- تحصیلات: کارشناسی ارشد روان‌شناسی بالینی از دانشگاه‌های معتبر ایران.
+- روانکاوی گروهی: ۷ سال تجربه در شرکت و هدایت گروه‌های روانکاوی.
+- گفتگوی درمانی فردی: تجربه‌ی کار با بزرگسالان در حوزه‌های متنوع.
+- روان‌شناسی مهاجرت: کار تخصصی با جامعه‌ی مهاجران و چالش‌های هویتی.
+- پژوهش و تدریس: مقاله‌نویسی، ترجمه و ارائه‌ی مفاهیم روان‌شناختی.
+- تعهد اخلاقی: رعایت کامل اصول اخلاق حرفه‌ای و محرمانگی.
+
+[آمار تجربه]
+
+- ۷ سال تجربه روانکاوی گروهی
+- ۵۰۰+ جلسه‌ی درمانی
+- ۵ حوزه‌ی تخصصی
+
+[فلسفه‌ی کار من]
+
+«من باور ندارم که روان‌درمانی درباره‌ی «درست شدن» است. روان‌درمانی درباره‌ی شدن است — شدنِ خود، شدنِ واقعی، شدنِ کامل.» — مریم قابل
+
+هیچ نسخه‌ی «درست»ی از شما وجود ندارد که قرار است به آن برسید. شما همین حالا کامل هستید — حتی اگر در حال تغییر باشید. کار ما این است که این کامل بودن را با هم کشف کنیم.
+
+بیایید با هم کار کنیم. اگر حرف‌های من برایتان آشناست، خوشحال می‌شوم آشنا شویم.
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[مریم قابل، روان‌شناس بالینی و روانکاو با ۷ سال تجربه در روانکاوی گروهی و کار تخصصی با بزرگسالان.]]></excerpt:encoded>
+            <wp:post_id>4</wp:post_id>
+            <wp:post_date><![CDATA[2024-01-01 10:10:00]]></wp:post_date>
+            <wp:post_date_gmt><![CDATA[2024-01-01 10:10:00]]></wp:post_date_gmt>
+            <wp:post_modified><![CDATA[2024-01-01 10:10:00]]></wp:post_modified>
+            <wp:post_modified_gmt><![CDATA[2024-01-01 10:10:00]]></wp:post_modified_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>about</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>2</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value><![CDATA[template-about.php]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+
+        <!-- ============================================ -->
+        <!-- PAGE 4: رزرو جلسه (Booking) -->
+        <!-- ============================================ -->
+        <item>
+            <title>رزرو جلسه</title>
+            <link>https://maryamghabel.ir/booking</link>
+            <pubDate>Mon, 01 Jan 2024 10:15:00 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false">https://maryamghabel.ir/?page_id=5</guid>
+            <description></description>
+            <content:encoded><![CDATA[
+رزرو جلسه
+
+شروع مسیر شما
+
+تمام آنچه باید بدانید پیش از رزرو جلسه.
+
+[اطلاعات جلسه]
+
+- مدت جلسه: ۵۰ دقیقه — هر جلسه‌ی درمانی پنجاه دقیقه است.
+- هزینه جلسه: ۱ تا ۱.۵ میلیون تومان — بسته به نوع جلسه و مسیر درمان.
+- تماس اولیه: ۱۵ دقیقه رایگان — گفتگوی اولیه برای شناخت متقابل، بدون هزینه.
+- محرمانگی: کامل — تمام جلسات محرمانه و مطابق اخلاق حرفه‌ای.
+
+[فرم رزرو]
+
+برای رزرو جلسه‌ی اولیه فرم زیر را تکمیل کنید. در اولین فرصت با شما تماس می‌گیرم. لطفاً توضیح کوتاهی از دلیل مراجعه‌ی خود بنویسید تا بتوانم بهتر کمک کنم.
+
+- تماس اولیه: ۱۵ دقیقه، رایگان، آنلاین (تلفنی یا تصویری)
+- جلسه‌ی درمانی: ۵۰ دقیقه، آنلاین یا حضوری
+- ساعات کاری: شنبه تا چهارشنبه، ۹ تا ۱۸
+- پاسخ به فرم: حداکثر ۴۸ ساعت کاری
+
+[سؤالات متداول]
+
+۱. تماس اولیه واقعاً رایگان است؟
+بله. این تماس ۱۵ دقیقه‌ای برای شناخت متقابل است و هیچ هزینه‌ای ندارد. هدف این است که مطمئن شویم می‌توانیم با هم کار کنیم.
+
+۲. جلسات آنلاین برگزار می‌شوند؟
+بله، جلسات می‌توانند آنلاین (تصویری یا تلفنی) یا حضوری برگزار شوند. در فرم رزرو مشخص کنید.
+
+۳. بعد از ارسال فرم چه می‌شود؟
+حداکثر طی ۴۸ ساعت کاری پاسخ می‌دهم تا زمان مناسبی برای تماس اولیه تعیین کنیم.
+
+۴. اطلاعات من محرمانه می‌ماند؟
+بله. رعایت محرمانگی یکی از اصول بنیادین کار من است و مطابق با اصول اخلاق حرفه‌ای روان‌شناسی است.
+
+۵. دوره درمان چقدر طول می‌کشد؟
+این به مسیر هر فرد بستگی دارد. رویکرد من فرایندی است، نه راه‌حل سریع. در جلسات اول درباره‌ی انتظارات صحبت می‌کنیم.
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[اطلاعات رزرو جلسه: جلسه ۵۰ دقیقه‌ای، ۱ تا ۱.۵ میلیون تومان، تماس اولیه ۱۵ دقیقه‌ای رایگان.]]></excerpt:encoded>
+            <wp:post_id>5</wp:post_id>
+            <wp:post_date><![CDATA[2024-01-01 10:15:00]]></wp:post_date>
+            <wp:post_date_gmt><![CDATA[2024-01-01 10:15:00]]></wp:post_date_gmt>
+            <wp:post_modified><![CDATA[2024-01-01 10:15:00]]></wp:post_modified>
+            <wp:post_modified_gmt><![CDATA[2024-01-01 10:15:00]]></wp:post_modified_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>booking</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>3</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value><![CDATA[template-booking.php]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+
+        <!-- ============================================ -->
+        <!-- PAGE 5: تماس (Contact) -->
+        <!-- ============================================ -->
+        <item>
+            <title>تماس</title>
+            <link>https://maryamghabel.ir/contact</link>
+            <pubDate>Mon, 01 Jan 2024 10:20:00 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false">https://maryamghabel.ir/?page_id=6</guid>
+            <description></description>
+            <content:encoded><![CDATA[
+تماس با من
+
+بیایید در ارتباط باشیم.
+
+از طریق کانال‌های زیر می‌توانید با من در ارتباط باشید. برای رزرو جلسه، صفحه‌ی رزرو را تکمیل کنید.
+
+[کانال‌های ارتباطی]
+
+- ایمیل: info@maryamghabel.ir — برای پرسش‌های غیرضروری
+- واتساپ: (شماره توسط مریم قابل تنظیم می‌شود) — سریع‌ترین راه تماس
+- اینستاگرام: (نام کاربری توسط مریم قابل تنظیم می‌شود) — برای محتوای روزانه
+- تلگرام: (نام کاربری توسط مریم قابل تنظیم می‌شود) — پیام و محتوا
+- تلفن: (شماره توسط مریم قابل تنظیم می‌شود) — ساعات کاری
+
+[ساعات کاری]
+
+شنبه تا چهارشنبه، ۹ تا ۱۸
+
+[یادآوری]
+
+اگر در بحران هستید یا فکر می‌کنید ممکن است به خودتان یا دیگران آسیب برسانید، لطفاً به اورژانس ۱۱۵ یا نزدیک‌ترین مرکز فوریت‌های روان‌پزشکی مراجعه کنید. این سایت جایگزین مراقبت اضطراری نیست.
+
+[فرم تماس]
+
+اگر سوالی دارید یا می‌خواهید پیام بگذارید، فرم زیر را تکمیل کنید.
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[اطلاعات تماس با مریم قابل: ایمیل، واتساپ، اینستاگرام، تلگرام و ساعات کاری.]]></excerpt:encoded>
+            <wp:post_id>6</wp:post_id>
+            <wp:post_date><![CDATA[2024-01-01 10:20:00]]></wp:post_date>
+            <wp:post_date_gmt><![CDATA[2024-01-01 10:20:00]]></wp:post_date_gmt>
+            <wp:post_modified><![CDATA[2024-01-01 10:20:00]]></wp:post_modified>
+            <wp:post_modified_gmt><![CDATA[2024-01-01 10:20:00]]></wp:post_modified_gmt>
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+            <wp:post_name>contact</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>4</wp:menu_order>
+            <wp:post_type>page</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>_wp_page_template</wp:meta_key>
+                <wp:meta_value><![CDATA[template-contact.php]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+
+        <!-- ============================================ -->
+        <!-- SAMPLE BLOG POST (optional, for blog demo) -->
+        <!-- ============================================ -->
+        <item>
+            <title>چرا روانکاوی؟ نگاهی به ریشه‌ها</title>
+            <link>https://maryamghabel.ir/why-psychoanalysis</link>
+            <pubDate>Tue, 16 Jan 2024 09:00:00 +0000</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false">https://maryamghabel.ir/?p=10</guid>
+            <description></description>
+            <content:encoded><![CDATA[
+روانکاوی فقط یک روش درمانی نیست؛ یک رویکرد به درک انسان است. فرود در این رویکرد معتقد بود که بسیاری از رنج‌های ما از آنچه به آن آگاه نیستیم سرچشمه می‌گیرند — از دنیای ناخودآگاه.
+
+در این نوشته، درباره‌ی سه ایده‌ی مرکزی روانکاوی صحبت می‌کنم:
+
+۱. ناخودآگاه چیست؟
+ناخودآگاه آن بخش از ذهن ماست که در لحظه آگاه نیستیم، اما رفتار، احساسات و انتخاب‌های ما را شکل می‌دهد. خاطرات کودکی، تمناها، ترس‌ها — همگی در آنجا هستند.
+
+۲. چرا مهم است؟
+چون وقتی نمی‌دانیم چه چیزی ما را هل می‌دهد، گیر می‌کنیم. روانکاوی فضا را باز می‌کند تا ببینیم.
+
+۳. مسیر چقدر طول می‌کشد؟
+این یک سؤال ساده نیست. مسیر هر کس متفاوت است. هدف نهایی رسیدن به نقطه‌ی خاصی نیست، بلکه بیشتر شدن با خود است.
+
+اگر این حرف‌ها برایتان آشناست، خوشحال می‌شوم با هم آشنا شویم.
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[نگاهی به ریشه‌های روانکاوی: ناخودآگاه، اهمیت آن و مسیر درک خود.]]></excerpt:encoded>
+            <wp:post_id>10</wp:post_id>
+            <wp:post_date><![CDATA[2024-01-16 09:00:00]]></wp:post_date>
+            <wp:post_date_gmt><![CDATA[2024-01-16 09:00:00]]></wp:post_date_gmt>
+            <wp:post_modified><![CDATA[2024-01-16 09:00:00]]></wp:post_modified>
+            <wp:post_modified_gmt><![CDATA[2024-01-16 09:00:00]]></wp:post_modified_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>why-psychoanalysis</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="uncategorized"><![CDATA[دسته‌بندی نشده]]></category>
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+
+    </channel>
+</rss>
