@@ -58,7 +58,7 @@ get_header();
                     <div class="service-detail-card__number">۰۲</div>
                     <div class="service-detail-card__body">
                         <h2 class="service-detail-card__title"><?php esc_html_e( 'روان‌شناسی موفقیت', 'maryam-ghabel' ); ?></h2>
-                        <p><?php esc_html_e( 'موفقیت بیرونی همیشه با رضایت درونی همراه نیست. خیلی‌ها به ظاهر به همه‌چیز می‌رسند اما از درون خالی‌اند. کار من کمک به انسان‌های موفقی است که احساس می‌کنند چیزی جایش نیست.', 'maryam-ghabel' ); ?></p>
+                        <p><?php esc_html_e( 'گاهی رسیدن به اهداف بیرونی با رضایت درونی همراه نیست. کار من همراهی با کسانی است که می‌خواهند معنای درونی موفقیت خود را پیدا کنند.', 'maryam-ghabel' ); ?></p>
                         <p><?php esc_html_e( 'سوال اصلی این نیست که «چگونه موفق شوم»، بلکه این است: «این موفقیت چه معنایی برای من دارد؟»', 'maryam-ghabel' ); ?></p>
                         <ul class="service-detail-card__list">
                             <li><?php esc_html_e( 'کشف موانع درونی رشد', 'maryam-ghabel' ); ?></li>

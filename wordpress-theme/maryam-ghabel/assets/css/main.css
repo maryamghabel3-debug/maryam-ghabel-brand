@@ -1063,4 +1063,30 @@
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+
+    /* Force-reveal all .animate-on-scroll elements without animation. */
+    .animate-on-scroll {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
+
+/* ==========================================================================
+   Privacy notice (booking & contact forms)
+   ========================================================================== */
+.privacy-notice {
+    background-color: rgba(201, 168, 124, 0.08);
+    border-right: 3px solid var(--color-gold);
+    padding: 0.75rem 1rem;
+    margin: 1rem 0 1.5rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--color-soft-black);
+}
+
+.privacy-notice strong {
+    color: var(--color-navy);
+    display: inline-block;
+    margin-left: 0.25rem;
 }
