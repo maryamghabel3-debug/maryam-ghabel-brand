@@ -16,8 +16,33 @@ Tags: rtl-language-support, custom-colors, custom-logo, custom-menu, featured-im
 
 /* ==========================================================================
    Maryam Ghabel Clinical Theme
-   Version: 1.0.0
+   Version: 1.0.1
    ========================================================================== */
+
+/* ----- Local @font-face for Vazirmatn (no external CDN) ----- */
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('assets/fonts/Vazirmatn-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('assets/fonts/Vazirmatn-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('assets/fonts/Vazirmatn-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* ----- CSS Variables: Brand Palette ----- */
 :root {

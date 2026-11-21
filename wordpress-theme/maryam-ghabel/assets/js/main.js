@@ -276,34 +276,4 @@
             }
         });
     }
-
-    /**
-     * Adjust Tailwind config if it's loaded (color palette sync).
-     */
-    function applyTailwindConfig() {
-        if (typeof window.tailwind === 'undefined' || typeof window.tailwind.config !== 'object') {
-            return;
-        }
-        window.tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        navy: '#1B2845',
-                        beige: '#E8DCC8',
-                        gold: '#C9A87C',
-                        'soft-black': '#2A2A2A',
-                    },
-                    fontFamily: {
-                        vazirmatn: ['Vazirmatn', 'Tahoma', 'sans-serif'],
-                    },
-                },
-            },
-        };
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', applyTailwindConfig);
-    } else {
-        applyTailwindConfig();
-    }
 })();

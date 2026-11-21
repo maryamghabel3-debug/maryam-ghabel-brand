@@ -145,32 +145,16 @@ add_action( 'widgets_init', 'maryam_ghabel_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
+ *
+ * Vazirmatn font is bundled locally (no external CDN).
+ * Tailwind CDN has been removed — the theme ships its own CSS.
  */
 function maryam_ghabel_scripts() {
-    // Vazirmatn font from CDN.
-    wp_enqueue_style(
-        'maryam-ghabel-vazirmatn',
-        'https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css',
-        array(),
-        '33.003'
-    );
-
-    // Tailwind CSS via CDN (utility classes, optional in Elementor pages).
-    if ( get_theme_mod( 'maryam_ghabel_enable_tailwind', true ) ) {
-        wp_enqueue_script(
-            'maryam-ghabel-tailwind',
-            'https://cdn.tailwindcss.com',
-            array(),
-            '3.4.0',
-            true
-        );
-    }
-
-    // Main theme stylesheet.
+    // Main theme stylesheet (style.css includes @font-face for Vazirmatn).
     wp_enqueue_style(
         'maryam-ghabel-style',
         get_stylesheet_uri(),
-        array( 'maryam-ghabel-vazirmatn' ),
+        array(),
         MARYAM_GHABEL_VERSION
     );
 
@@ -220,27 +204,13 @@ function maryam_ghabel_scripts() {
 add_action( 'wp_enqueue_scripts', 'maryam_ghabel_scripts' );
 
 /**
- * Add async/defer attributes to specific scripts.
- *
- * @param string $tag    The script tag.
- * @param string $handle The script handle.
- * @return string
- */
-function maryam_ghabel_script_loader_tag( $tag, $handle ) {
-    if ( 'maryam-ghabel-tailwind' === $handle ) {
-        $tag = str_replace( ' src', ' async src', $tag );
-    }
-    return $tag;
-}
-add_filter( 'script_loader_tag', 'maryam_ghabel_script_loader_tag', 10, 2 );
-
-/**
- * Preload critical assets.
+ * Preload critical local assets only (no external CDN preconnect).
  */
 function maryam_ghabel_preload_assets() {
+    // Preload the main local font file (regular weight, used most).
+    $font_url = MARYAM_GHABEL_URI . '/assets/fonts/Vazirmatn-Regular.ttf';
     ?>
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preload" href="<?php echo esc_url( $font_url ); ?>" as="font" type="font/ttf" crossorigin>
     <?php
 }
 add_action( 'wp_head', 'maryam_ghabel_preload_assets', 1 );

@@ -20,15 +20,15 @@ get_header();
         <div class="container hero-section__inner">
             <div class="hero-section__content animate-on-scroll">
                 <span class="hero-section__eyebrow">
-                    <?php esc_html_e( 'مریم قابل | روان‌شناس بالینی', 'maryam-ghabel' ); ?>
+                    <?php esc_html_e( 'مریم قابل | دانش‌آموخته‌ی روان‌شناسی بالینی', 'maryam-ghabel' ); ?>
                 </span>
                 <h1 class="hero-section__title">
-                    <?php esc_html_e( 'روان‌شناسی عمیق برای بزرگسالان موفق', 'maryam-ghabel' ); ?>
+                    <?php esc_html_e( 'روان‌شناسی عمیق برای خودشناسی', 'maryam-ghabel' ); ?>
                 </h1>
                 <p class="hero-section__subtitle">
                     <?php
                     esc_html_e(
-                        'روانکاوی، خودآگاهی و رشد فردی برای کسانی که به دنبال درک عمیق‌تر از خود و الگوهای ناخودآگاه خود هستند. همراه شما در مسیر شناخت و تغییر.',
+                        'فضایی برای کاوش در الگوهای ناخودآگاه، شناخت احساس‌ها و کار فردی با ریشه‌ها. همراهی در مسیر خودی و رشد درونی، نه راه‌حل سریع.',
                         'maryam-ghabel'
                     );
                     ?>
@@ -56,23 +56,23 @@ get_header();
                 <p class="section-lead">
                     <?php
                     esc_html_e(
-                        'من مریم قابل هستم، روان‌شناس بالینی با تخصص در روانکاوی و کار با بزرگسالان. کار من کمک به انسان‌هایی است که به ظاهر موفق هستند اما در درون دچار درگیری، اضطراب یا احساس خلأ هستند. با هم، الگوهای تکرارشونده‌ی ناخودآگاه را پیدا می‌کنیم و مسیر تغییر را می‌سازیم.',
+                        'من مریم قابل هستم، دانش‌آموخته‌ی روان‌شناسی بالینی. کار من همراهی با کسانی است که به دنبال درک عمیق‌تر خود و الگوهای رابطه‌ای‌شان می‌گردند. با هم، الگوهای تکرارشونده را پیدا می‌کنیم و مسیر تغییر را گام‌به‌گام می‌سازیم.',
                         'maryam-ghabel'
                     );
                     ?>
                 </p>
                 <div class="intro-section__stats">
                     <div class="stat-card">
-                        <span class="stat-card__number">۷+</span>
-                        <span class="stat-card__label"><?php esc_html_e( 'سال تجربه روانکاوی گروهی', 'maryam-ghabel' ); ?></span>
-                    </div>
-                    <div class="stat-card">
                         <span class="stat-card__number">۵۰</span>
                         <span class="stat-card__label"><?php esc_html_e( 'دقیقه هر جلسه', 'maryam-ghabel' ); ?></span>
                     </div>
                     <div class="stat-card">
                         <span class="stat-card__number">۱۵</span>
-                        <span class="stat-card__label"><?php esc_html_e( 'دقیقه مشاوره اولیه رایگان', 'maryam-ghabel' ); ?></span>
+                        <span class="stat-card__label"><?php esc_html_e( 'دقیقه گفتگوی اولیه', 'maryam-ghabel' ); ?></span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-card__number">آنلاین</span>
+                        <span class="stat-card__label"><?php esc_html_e( 'نحوه برگزاری جلسات', 'maryam-ghabel' ); ?></span>
                     </div>
                 </div>
             </div>
@@ -140,19 +140,19 @@ get_header();
                     <ul class="why-section__list">
                         <li>
                             <strong><?php esc_html_e( 'رویکرد روانکاوانه', 'maryam-ghabel' ); ?></strong>
-                            <p><?php esc_html_e( 'کار بر اساس ریشه‌های ناخودآگاه الگوهای رفتاری، نه صرفاً نشانه‌ها.', 'maryam-ghabel' ); ?></p>
+                            <p><?php esc_html_e( 'تمرکز بر ریشه‌های ناخودآگاه الگوهای رفتاری، نه صرفاً نشانه‌ها.', 'maryam-ghabel' ); ?></p>
                         </li>
                         <li>
-                            <strong><?php esc_html_e( 'تجربه‌ی گروهی', 'maryam-ghabel' ); ?></strong>
-                            <p><?php esc_html_e( '۷ سال تجربه در روانکاوی گروهی با مراجعان متنوع.', 'maryam-ghabel' ); ?></p>
+                            <strong><?php esc_html_e( 'گفتگوی اولیه', 'maryam-ghabel' ); ?></strong>
+                            <p><?php esc_html_e( 'یک گفتگوی کوتاه برای شناخت متقابل و دیدن اینکه آیا می‌توانیم با هم کار کنیم.', 'maryam-ghabel' ); ?></p>
                         </li>
                         <li>
                             <strong><?php esc_html_e( 'حریم خصوصی کامل', 'maryam-ghabel' ); ?></strong>
                             <p><?php esc_html_e( 'تمام جلسات محرمانه و با رعایت اصول اخلاقی حرفه‌ای.', 'maryam-ghabel' ); ?></p>
                         </li>
                         <li>
-                            <strong><?php esc_html_e( 'مشاوره‌ی اولیه رایگان', 'maryam-ghabel' ); ?></strong>
-                            <p><?php esc_html_e( '۱۵ دقیقه گفتگوی اولیه برای شناخت متقابل، بدون هزینه.', 'maryam-ghabel' ); ?></p>
+                            <strong><?php esc_html_e( 'جلسات آنلاین', 'maryam-ghabel' ); ?></strong>
+                            <p><?php esc_html_e( 'جلسات به‌صورت آنلاین برگزار می‌شوند تا از هر کجا در دسترس باشند.', 'maryam-ghabel' ); ?></p>
                         </li>
                     </ul>
                 </div>
@@ -174,15 +174,15 @@ get_header();
             </div>
             <div class="testimonials-grid">
                 <blockquote class="testimonial-card animate-on-scroll">
-                    <p class="testimonial-card__text">«جلسات با مریم به من کمک کرد الگوهایی را ببینم که سال‌ها در تاریکی بودند. به جای درمان سریع، یاد گرفتم خودم را عمیق‌تر بشناسم.»</p>
-                    <footer class="testimonial-card__author">— <?php esc_html_e( 'مراجع ۳۲ ساله', 'maryam-ghabel' ); ?></footer>
+                    <p class="testimonial-card__text">«جلسات به من کمک کرد الگوهایی را ببینم که در تاریکی بودند. به جای پاسخ سریع، یاد گرفتم خودم را عمیق‌تر بشناسم.»</p>
+                    <footer class="testimonial-card__author">— <?php esc_html_e( 'مراجع', 'maryam-ghabel' ); ?></footer>
                 </blockquote>
                 <blockquote class="testimonial-card animate-on-scroll">
-                    <p class="testimonial-card__text">«فضای امن و بدون قضاوت. مریم با حوصله گوش می‌دهد و سؤال‌های درستی می‌پرسد.»</p>
-                    <footer class="testimonial-card__author">— <?php esc_html_e( 'مراجع ۴۰ ساله', 'maryam-ghabel' ); ?></footer>
+                    <p class="testimonial-card__text">«فضای امن و بدون قضاوت. با حوصله گوش می‌دهد و سؤال‌های درستی می‌پرسد.»</p>
+                    <footer class="testimonial-card__author">— <?php esc_html_e( 'مراجع', 'maryam-ghabel' ); ?></footer>
                 </blockquote>
                 <blockquote class="testimonial-card animate-on-scroll">
-                    <p class="testimonial-card__text">«به‌عنوان مهاجر، کسی که درک می‌کند چه می‌گذرد پیدا کردم. ممنونم.»</p>
+                    <p class="testimonial-card__text">«به‌عنوان مهاجر، کسی که درک می‌کند چه می‌گذرد پیدا کردم.»</p>
                     <footer class="testimonial-card__author">— <?php esc_html_e( 'مراجع مهاجر', 'maryam-ghabel' ); ?></footer>
                 </blockquote>
             </div>
@@ -197,11 +197,11 @@ get_header();
                     <?php esc_html_e( 'آماده‌اید مسیر شناخت خود را آغاز کنید؟', 'maryam-ghabel' ); ?>
                 </h2>
                 <p class="cta-section__text">
-                    <?php esc_html_e( 'یک تماس ۱۵ دقیقه‌ای رایگان برای شروع. بدون تعهد، فقط برای مطمئن شدن.', 'maryam-ghabel' ); ?>
+                    <?php esc_html_e( 'یک گفتگوی اولیه برای شروع. بدون تعهد، فقط برای اینکه ببینیم آیا می‌توانیم با هم کار کنیم.', 'maryam-ghabel' ); ?>
                 </p>
                 <div class="cta-section__actions">
                     <a href="<?php echo esc_url( home_url( '/booking' ) ); ?>" class="btn btn-gold btn-lg">
-                        <?php esc_html_e( 'رزرو مشاوره‌ی اولیه', 'maryam-ghabel' ); ?>
+                        <?php esc_html_e( 'گفتگوی اولیه', 'maryam-ghabel' ); ?>
                     </a>
                     <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-outline btn-lg">
                         <?php esc_html_e( 'اطلاعات تماس', 'maryam-ghabel' ); ?>

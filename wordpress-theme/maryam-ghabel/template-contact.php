@@ -12,14 +12,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header();
 
-// Pull contact info from Customizer with safe defaults.
-$maryam_email      = get_theme_mod( 'maryam_ghabel_email', 'info@maryamghabel.ir' );
+// Pull contact info from Customizer with empty defaults (no fake data).
+$maryam_email      = get_theme_mod( 'maryam_ghabel_email', '' );
 $maryam_whatsapp   = get_theme_mod( 'maryam_ghabel_whatsapp', '' );
 $maryam_instagram  = get_theme_mod( 'maryam_ghabel_instagram', '' );
 $maryam_telegram   = get_theme_mod( 'maryam_ghabel_telegram', '' );
 $maryam_phone      = get_theme_mod( 'maryam_ghabel_phone', '' );
-$maryam_address    = get_theme_mod( 'maryam_ghabel_address', '' );
-$maryam_hours      = get_theme_mod( 'maryam_ghabel_hours', __( 'شنبه تا چهارشنبه، ۹ تا ۱۸', 'maryam-ghabel' ) );
+$maryam_address    = ''; // Address intentionally empty — sessions are online only.
+$maryam_hours      = get_theme_mod( 'maryam_ghabel_hours', '' );
 ?>
 
 <main id="primary" class="site-main site-main--contact" role="main">
@@ -122,19 +122,29 @@ $maryam_hours      = get_theme_mod( 'maryam_ghabel_hours', __( 'شنبه تا چ
 
                 <div class="contact-section__form animate-on-scroll">
                     <h2 class="section-title"><?php esc_html_e( 'فرم تماس', 'maryam-ghabel' ); ?></h2>
+                    <div class="privacy-notice" role="note">
+                        <strong><?php esc_html_e( 'توجه برای حفظ حریم خصوصی', 'maryam-ghabel' ); ?>:</strong>
+                        <?php
+                        esc_html_e(
+                            'لطفاً برای حفظ حریم خصوصی، شرح‌حال تفصیلی، سوابق دارویی یا جزئیات حساس را در این فرم ننویسید. این‌ها در جلسه و فضای امن گفتگو مطرح می‌شوند.',
+                            'maryam-ghabel'
+                        );
+                        ?>
+                    </div>
                     <?php
                     // Use WPForms if a form is configured.
                     $maryam_contact_form_id = get_theme_mod( 'maryam_ghabel_contact_form_id', '' );
                     if ( $maryam_contact_form_id && shortcode_exists( 'wpforms' ) ) {
                         echo do_shortcode( '[wpforms id="' . absint( $maryam_contact_form_id ) . '" title="false" description="false"]' );
                     } else {
-                        // Native fallback form.
+                        // Native fallback form — no client-side success, no console.log.
                         ?>
                         <form
                             method="post"
                             action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>"
                             class="contact-form"
                             aria-label="<?php esc_attr_e( 'فرم تماس', 'maryam-ghabel' ); ?>"
+                            novalidate
                         >
                             <?php wp_nonce_field( 'maryam_ghabel_contact', 'maryam_ghabel_contact_nonce' ); ?>
                             <input type="hidden" name="action" value="maryam_ghabel_contact_submission">
@@ -156,7 +166,7 @@ $maryam_hours      = get_theme_mod( 'maryam_ghabel_hours', __( 'شنبه تا چ
 
                             <div class="form-row">
                                 <label for="contact-message"><?php esc_html_e( 'پیام شما', 'maryam-ghabel' ); ?> <span class="required">*</span></label>
-                                <textarea id="contact-message" name="contact_message" rows="6" required></textarea>
+                                <textarea id="contact-message" name="contact_message" rows="6" maxlength="500" required></textarea>
                             </div>
 
                             <div class="form-actions">
