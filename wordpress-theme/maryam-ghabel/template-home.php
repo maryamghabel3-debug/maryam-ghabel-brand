@@ -23,7 +23,7 @@ get_header();
                     <?php esc_html_e( 'مریم قابل | دانش‌آموخته‌ی روان‌شناسی بالینی', 'maryam-ghabel' ); ?>
                 </span>
                 <h1 class="hero-section__title">
-                    <?php esc_html_e( 'روان‌شناسی عمیق برای خودشناسی', 'maryam-ghabel' ); ?>
+                    <?php esc_html_e( 'روان‌شناسی عمیق برای بزرگسالانی که می‌خواهند خودشان را بهتر بشناسند', 'maryam-ghabel' ); ?>
                 </h1>
                 <p class="hero-section__subtitle">
                     <?php
